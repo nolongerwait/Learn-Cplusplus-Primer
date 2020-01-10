@@ -1,5 +1,6 @@
 # 简介  
-![Tutorial](https://img.shields.io/badge/C%2B%2B-Tutorial-brightgreen.svg)  
+![Tutorial](https://img.shields.io/badge/C%2B%2B-Tutorial-brightgreen.svg)
+![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/nolongerwait/Learn-Cplusplus-Primer?include_prereleases)
 
 这样的提纲目的只是为了方便区别知识点的重要程度，有选择性地学习C++庞大而繁杂的知识体系，减少不必要的精力消耗。  
 
