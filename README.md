@@ -103,13 +103,13 @@
         - 添加元素v.push_back(t)
         - 函数v.empty()和v.size() 
         - 相等、不等、字典顺序遍历<.<=,>=,>
-            - 两个规则！
+            - 两个规则！（“数量相同”和“数量不同”）
     - 无法向空vector对象通过使用下标操作的方式添加元素
 4. 迭代器
     - 掌握迭代器的使用
     
         ```c++
-        atuo itBegin = v.begin(), itEnd = v.end();
+        auto itBegin = v.begin(), itEnd = v.end();
         ```
         - begin成员返回第一个元素的迭代器
         - end成员返回指向“尾元素的下一个位置”的迭代器，又称为**尾后迭代器**
@@ -181,7 +181,7 @@
         - 各自左右值的区分
 7. 条件运算符
     
-    - 掌握并运用唯一的三元运算符——条件运算符( cond ? expr1 : expr2 )
+    - 掌握并运用唯一的三元运算符——条件运算符(```cond ? expr1 : expr2```)
 8. 位运算符
     - 掌握移位运算符的原理和操作使用（区别于IO中的重载版本）
     - 掌握位求反的原理
@@ -330,7 +330,7 @@
     {
         int param_1 = 10;
         int param_2 = 5;
-        int result = function(param_1, param_2); // call the function add
+        int result = add(param_1, param_2); // call the function add
 
         return 0;
     }
@@ -627,9 +627,9 @@
         ```
     - 函数指针形参
         ```c++
-        void useBegger( const string &s1, const string &s2, bool pf( const string &, const string & ));  
+        void useBegger(const string &s1, const string &s2, bool pf( const string &, const string &));  
 
-        void useBegger( const string &s1, const string &s2, bool (*pf)( const string&, const string& ));
+        void useBegger(const string &s1, const string &s2, bool (*pf)( const string&, const string&));
         ```
         上面两个函数都是合法的  
         
